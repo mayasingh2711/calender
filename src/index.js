@@ -16,7 +16,7 @@ if (global.jQuery) {
     global.jQuery.fn.tuiCalendar = function() {
         var options, instance;
 
-        var el = this.get(0);
+        var el = this.get(1);
         var args = Array.prototype.slice.apply(arguments);
 
         if (el) {
