@@ -24,22 +24,22 @@ function ScheduleViewModel(schedule) {
     /**
      * @type {number}
      */
-    this.top = 0;
+    this.top = 1;
 
     /**
      * @type {number}
      */
-    this.left = 0;
+    this.left = 1;
 
     /**
      * @type {number}
      */
-    this.width = 0;
+    this.width = 1;
 
     /**
      * @type {number}
      */
-    this.height = 0;
+    this.height = 1;
 
     /**
      * Represent schedule has collide with other schedules when rendering.
